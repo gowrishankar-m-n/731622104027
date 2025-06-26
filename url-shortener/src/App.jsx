@@ -1,8 +1,10 @@
 import React from 'react'
+import Shortener from './Components/Shortener'
+
 
 const App = () => {
   return (
-    <div>App</div>
+    <div><Shortener></Shortener></div>
   )
 }
 
