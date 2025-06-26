@@ -10,26 +10,49 @@ const Shortener = () => {
             <div className="url-box">
 
                 <form className="form">
+
                     <label htmlFor="urls">Enter Url 1:</label> 
                     <input type="text" placeholder="Enter Url 1"/> 
+                    <label htmlFor="urls">Enter Validity:</label> 
+                    <input type="text" placeholder="Validity Of Link"/> 
+                    <label htmlFor="urls">Custom Link:</label> 
+                    <input type="number" placeholder="Enter Your Custom Link"/> 
                     <button className="get-btn">Get Url</button> <br />
 
-                    <label htmlFor="urls">Enter Url 2:</label> 
+                    <label htmlFor="urls">Enter Url 1:</label> 
                     <input type="text" placeholder="Enter Url 1"/> 
-                    <button className="get-btn">Get Url</button> <br />
-                    
-                    <label htmlFor="urls">Enter Url 3:</label> 
-                    <input type="text" placeholder="Enter Url 1"/> 
-                    <button className="get-btn">Get Url</button> <br />
-
-                    <label htmlFor="urls">Enter Url 4:</label> 
-                    <input type="text" placeholder="Enter Url 1"/> 
-                    <button className="get-btn">Get Url</button> <br />
-                    
-                    <label htmlFor="urls">Enter Url 5:</label> 
-                    <input type="text" placeholder="Enter Url 1"/> 
+                    <label htmlFor="urls">Enter Validity:</label> 
+                    <input type="text" placeholder="Validity Of Link"/> 
+                    <label htmlFor="urls">Custom Link:</label> 
+                    <input type="number" placeholder="Enter Your Custom Link"/> 
                     <button className="get-btn">Get Url</button> <br />
 
+                    <label htmlFor="urls">Enter Url 1:</label> 
+                    <input type="text" placeholder="Enter Url 1"/> 
+                    <label htmlFor="urls">Enter Validity:</label> 
+                    <input type="text" placeholder="Validity Of Link"/> 
+                    <label htmlFor="urls">Custom Link:</label> 
+                    <input type="number" placeholder="Enter Your Custom Link"/> 
+                    <button className="get-btn">Get Url</button> <br />
+
+                    <label htmlFor="urls">Enter Url 1:</label> 
+                    <input type="text" placeholder="Enter Url 1"/> 
+                    <label htmlFor="urls">Enter Validity:</label> 
+                    <input type="text" placeholder="Validity Of Link"/> 
+                    <label htmlFor="urls">Custom Link:</label> 
+                    <input type="number" placeholder="Enter Your Custom Link"/> 
+                    <button className="get-btn">Get Url</button> <br />
+
+                    <label htmlFor="urls">Enter Url 1:</label> 
+                    <input type="text" placeholder="Enter Url 1"/> 
+                    <label htmlFor="urls">Enter Validity:</label> 
+                    <input type="text" placeholder="Validity Of Link"/> 
+                    <label htmlFor="urls">Custom Link:</label> 
+                    <input type="number" placeholder="Enter Your Custom Link"/> 
+                    <button className="get-btn">Get Url</button> <br />
+
+
+            
                     
                 </form>
             </div>
