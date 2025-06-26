@@ -9,8 +9,8 @@ nav{
     display: flex;
     flex-direction: row;
     align-items: center;
+    width: 120%;
     justify-content: space-around;
-    width: 130%;
     /* background-color: white; */
     backdrop-filter: blur(10px);
     box-shadow: 0 0 10px rgba(0,0,0, 0.9);

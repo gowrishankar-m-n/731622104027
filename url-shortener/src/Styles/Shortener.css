@@ -76,3 +76,18 @@ textarea{
     border: none;
     border-radius: 10px;
 }
+
+.view-history{
+    margin-top: 20px;
+    padding: 10px 20px;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
+    color: white;
+    font-size: 15px;
+}
+
+.view-history:hover{
+    background-color: white;
+    color: black;
+}

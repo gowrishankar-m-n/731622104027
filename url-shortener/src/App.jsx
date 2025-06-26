@@ -4,7 +4,7 @@ import NavBar from './Components/NavBar'
 
 const App = () => {
   return (
-    <div>
+    <div> 
       <NavBar/>
       <Shortener/>
     </div>

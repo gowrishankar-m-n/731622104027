@@ -72,6 +72,10 @@ const Shortener = () => {
                 </div>
             </div>
         </div>
+
+        <button className="view-history">
+            View History
+        </button>
     </div>
   )
 }
