@@ -9,21 +9,26 @@ const Shortener = () => {
         <div className="url-container">
             <div className="url-box">
 
-                <form>
-                    <label htmlFor="urls">Url 1:</label> <br />
-                    <input type="text" placeholder="Enter Url 1"/> <br />
+                <form className="form">
+                    <label htmlFor="urls">Enter Url 1:</label> 
+                    <input type="text" placeholder="Enter Url 1"/> 
+                    <button className="get-btn">Get Url</button> <br />
 
-                    <label htmlFor="urls">Url 2:</label>  <br />
-                    <input type="text" placeholder="Enter Url 1"/> <br />
+                    <label htmlFor="urls">Enter Url 2:</label> 
+                    <input type="text" placeholder="Enter Url 1"/> 
+                    <button className="get-btn">Get Url</button> <br />
+                    
+                    <label htmlFor="urls">Enter Url 3:</label> 
+                    <input type="text" placeholder="Enter Url 1"/> 
+                    <button className="get-btn">Get Url</button> <br />
 
-                    <label htmlFor="urls">Url 3:</label> <br /> 
-                    <input type="text" placeholder="Enter Url 1"/> <br />
-
-                    <label htmlFor="urls">Url 4:</label> <br /> 
-                    <input type="text" placeholder="Enter Url 1"/> <br />
-
-                    <label htmlFor="urls">Url 5:</label> <br /> 
-                    <input type="text" placeholder="Enter Url 1"/> <br />
+                    <label htmlFor="urls">Enter Url 4:</label> 
+                    <input type="text" placeholder="Enter Url 1"/> 
+                    <button className="get-btn">Get Url</button> <br />
+                    
+                    <label htmlFor="urls">Enter Url 5:</label> 
+                    <input type="text" placeholder="Enter Url 1"/> 
+                    <button className="get-btn">Get Url</button> <br />
 
                     
                 </form>
