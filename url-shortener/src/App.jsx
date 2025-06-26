@@ -1,10 +1,13 @@
 import React from 'react'
 import Shortener from './Components/Shortener'
-
+import NavBar from './Components/NavBar'
 
 const App = () => {
   return (
-    <div><Shortener></Shortener></div>
+    <div>
+      <NavBar/>
+      <Shortener/>
+    </div>
   )
 }
 
