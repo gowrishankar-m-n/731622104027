@@ -22,7 +22,7 @@ div{
     justify-content: center;
 }
 .url-container{
-    background-color: rgba(165, 165, 165, 0.589);
+    background-color: rgba(165, 165, 165, 0.733);
     box-shadow: 0 0 10px rgba(0,0,0, 0.9);
     padding: 10px 20px;
     display: flex;
@@ -53,7 +53,8 @@ input{
     outline: none;
     border-radius: 10px;
     height: 40px;
-    margin: 10px;
+    margin: 20px;
+    padding: 0 10px;
 }
 
 .get-btn{
