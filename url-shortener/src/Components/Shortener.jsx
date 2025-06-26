@@ -9,52 +9,67 @@ const Shortener = () => {
         <div className="url-container">
             <div className="url-box">
 
-                <form className="form">
+                <div className="form">
+                     <label htmlFor="urls">Enter Url 1:</label> 
+                        <input type="text" placeholder="Enter Url 1" required/> 
+                        <label htmlFor="urls">Enter Validity:</label> 
+                        <input type="text" placeholder="Validity Of Link"/> 
+                        <label htmlFor="urls">Custom Link:</label> 
+                        <input type="number" placeholder="Enter Your Custom Link"/> 
+                        <button className="get-btn">Get Url</button> <br />
+                        <textarea ame="short-url" id="" rows="3" cols="25">
 
-                    <label htmlFor="urls">Enter Url 1:</label> 
-                    <input type="text" placeholder="Enter Url 1"/> 
-                    <label htmlFor="urls">Enter Validity:</label> 
-                    <input type="text" placeholder="Validity Of Link"/> 
-                    <label htmlFor="urls">Custom Link:</label> 
-                    <input type="number" placeholder="Enter Your Custom Link"/> 
-                    <button className="get-btn">Get Url</button> <br />
+                        </textarea>
+                </div>
 
-                    <label htmlFor="urls">Enter Url 1:</label> 
-                    <input type="text" placeholder="Enter Url 1"/> 
-                    <label htmlFor="urls">Enter Validity:</label> 
-                    <input type="text" placeholder="Validity Of Link"/> 
-                    <label htmlFor="urls">Custom Link:</label> 
-                    <input type="number" placeholder="Enter Your Custom Link"/> 
-                    <button className="get-btn">Get Url</button> <br />
+                <div className="form">
+                     <label htmlFor="urls">Enter Url 2:</label> 
+                        <input type="text" placeholder="Enter Url 1" required/> 
+                        <label htmlFor="urls">Enter Validity:</label> 
+                        <input type="text" placeholder="Validity Of Link"/> 
+                        <label htmlFor="urls">Custom Link:</label> 
+                        <input type="number" placeholder="Enter Your Custom Link"/> 
+                        <button className="get-btn">Get Url</button> <br />
+                        <textarea name="short-url" id="" rows="3" cols="25">
 
-                    <label htmlFor="urls">Enter Url 1:</label> 
-                    <input type="text" placeholder="Enter Url 1"/> 
-                    <label htmlFor="urls">Enter Validity:</label> 
-                    <input type="text" placeholder="Validity Of Link"/> 
-                    <label htmlFor="urls">Custom Link:</label> 
-                    <input type="number" placeholder="Enter Your Custom Link"/> 
-                    <button className="get-btn">Get Url</button> <br />
+                        </textarea>
+                </div>
+                <div className="form">
+                     <label htmlFor="urls">Enter Url 3:</label> 
+                        <input type="text" placeholder="Enter Url 1" required/> 
+                        <label htmlFor="urls">Enter Validity:</label> 
+                        <input type="text" placeholder="Validity Of Link"/> 
+                        <label htmlFor="urls">Custom Link:</label> 
+                        <input type="number" placeholder="Enter Your Custom Link"/> 
+                        <button className="get-btn">Get Url</button> <br />
+                        <textarea name="short-url" id="" rows="3" cols="25">
 
-                    <label htmlFor="urls">Enter Url 1:</label> 
-                    <input type="text" placeholder="Enter Url 1"/> 
-                    <label htmlFor="urls">Enter Validity:</label> 
-                    <input type="text" placeholder="Validity Of Link"/> 
-                    <label htmlFor="urls">Custom Link:</label> 
-                    <input type="number" placeholder="Enter Your Custom Link"/> 
-                    <button className="get-btn">Get Url</button> <br />
+                        </textarea>
+                </div>
+                <div className="form">
+                     <label htmlFor="urls">Enter Url 4:</label> 
+                        <input type="text" placeholder="Enter Url 1" required/> 
+                        <label htmlFor="urls">Enter Validity:</label> 
+                        <input type="text" placeholder="Validity Of Link"/> 
+                        <label htmlFor="urls">Custom Link:</label> 
+                        <input type="number" placeholder="Enter Your Custom Link"/> 
+                        <button className="get-btn">Get Url</button> <br />
+                        <textarea name="short-url" id="" rows="3" cols="25">
 
-                    <label htmlFor="urls">Enter Url 1:</label> 
-                    <input type="text" placeholder="Enter Url 1"/> 
-                    <label htmlFor="urls">Enter Validity:</label> 
-                    <input type="text" placeholder="Validity Of Link"/> 
-                    <label htmlFor="urls">Custom Link:</label> 
-                    <input type="number" placeholder="Enter Your Custom Link"/> 
-                    <button className="get-btn">Get Url</button> <br />
+                        </textarea>
+                </div>
+                <div className="form">
+                     <label htmlFor="urls">Enter Url 5:</label> 
+                        <input type="text" placeholder="Enter Url 1" required/> 
+                        <label htmlFor="urls">Enter Validity:</label> 
+                        <input type="text" placeholder="Validity Of Link"/> 
+                        <label htmlFor="urls">Custom Link:</label> 
+                        <input type="number" placeholder="Enter Your Custom Link"/> 
+                        <button className="get-btn">Get Url</button> <br />
+                        <textarea name="short-url" id="" rows="3" cols="25">
 
-
-            
-                    
-                </form>
+                        </textarea>
+                </div>
             </div>
         </div>
     </div>
